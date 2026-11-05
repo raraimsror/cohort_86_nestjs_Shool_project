@@ -2,4 +2,4 @@ import {Module} from '@nestjs/common';
 
 @Module({})
 
-class UserModule {}
+export class UsersModule {}
