@@ -5,7 +5,7 @@ import { Repository } from "typeorm";
 import { Car } from './cars.entity.js'
 
 @Injectable()
-class CarRepository {
+class CarsRepository {
   constructor(
     @InjectRepository(Car)
     private readonly repository: Repository<Car>,
@@ -27,4 +27,4 @@ class CarRepository {
     await this.repository.delete(id);
   }
 }
-export { CarRepository };
+export { CarsRepository };0
