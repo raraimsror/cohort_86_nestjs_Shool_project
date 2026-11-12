@@ -20,3 +20,4 @@ export class Car {
     @Column({ name: 'active', nullable: false, unique: false })
         active: boolean;
 }
+
